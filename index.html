@@ -6,32 +6,19 @@
   
   <body>
     <center>
-      <h2>Chrome-Crash.github.io</h2>
+      <span style="font-size:20px;">Chrome-Crash.github.io</span>
       <span>That Website That Crashes Your Browser.</span>
-      
+      <br> <br>
       <div style="margin-down:43rem;">
-         <img src="data/718smiley.png" width="100rem" height="100rem">
+         <img src="data/718smiley.png" width="200rem" height="200rem">
       </div>
-      
     </center>
     
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js', 'ga');
+    <!-- The Fun Stuff :) -->
+    <script type="text/javascript"> 
+      function CrashAndBurn(url) { popupWindow = window.open( url,'popUpWindow','height=181,width=666,left=3,top=222') }
+    </script> 
+    <!-- <body onload="JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');"> -->
       
-      ga('create', 'UA-60737367-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script>
-      var total = "";
-      for( var i = 0; i < 9000000000000; i++ ) {
-        total = total + i.toString();
-        history.pushState(0,0, total );
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js', 'ga');
-         ga('create', 'UA-60737367-1', 'auto');
-         ga('send', 'pageview');
-         <body onload="JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');">
-    </script>
-    <script>
-    </script>
   </body>
 </html>
